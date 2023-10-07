@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import postgres from 'postgres';
 
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
