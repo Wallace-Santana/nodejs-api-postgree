@@ -3,8 +3,8 @@ Content-Type: application/json
 
 
 {
-    "title": "Video 1",
-    "description": "Esse é meu primeiro video",
+    "title": "Jeferson costa",
+    "description": "Jeferson + atila + travecao",
     "duration": 180
 }
 
@@ -14,18 +14,18 @@ GET http://localhost:3333/videos
 
 ###
 
-PUT http://localhost:3333/videos/
+PUT http://localhost:3333/videos/4965c072-8426-46a2-8683-4bc37990f0a1
 Content-Type: application/json
 
 
 {
-    "title": "Video teste",
-    "description": "Esse é meu primeiro video",
+    "title": "Jeferson costa",
+    "description": "So o atila",
     "duration": 180
 }
 
 
 ###
 
-DELETE  http://localhost:3333/videos/
+DELETE  https://api-node-postgre.onrender.com/videos/
 Content-Type: application/json
